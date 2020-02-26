@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import './index.css';
 
 const tasks = ['take out the trash', 'shovel the driveway', 'walk the dog'];
 function Title(){
@@ -9,7 +9,7 @@ function Title(){
 function tick() {
 const element = (
     
-<div align="center">
+<div className="container" class="font-weight-light" align="center">
     <Title/>
     <h1>Hello World!</h1>
 <h2>It is {new Date().toLocaleTimeString()}.</h2>
